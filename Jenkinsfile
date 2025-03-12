@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building the project...'
-                    sh 'make -C main'  // Intentional error: Directory does not exist
+                    sh 'make -C main'
                 }
             }
         }
